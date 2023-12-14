@@ -2,7 +2,7 @@
 
 KEY="keys/rsa_priv.pem"
 URL="https://labs.eventnotifications.net/inbox/"
-WEBID="https://patrickhochstenbach/demo/labs/id.jsonld"
+WEBID="https://patrickhochstenbach.net/demo/labs/id.jsonld"
 FILE="example.jsonld"
 CONTENT_TYPE="application/ld+json"
 
