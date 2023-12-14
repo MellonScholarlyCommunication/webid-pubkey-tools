@@ -27,7 +27,7 @@ node bin/make_webid.js <webid> <public-key>
 ### Make authenticated requests against a webid-public key server
 
 ```
-node bin/headers.js <priv-key> <webid> POST https://labs.eventnotifications.net/inbox/ mynotification.jsonld
+node bin/headers.js <priv-key> <webid> POST https://labs.eventnotifications.net/inbox/ example.jsonld
 ```
 
 ### Issue a POST request
@@ -35,5 +35,5 @@ node bin/headers.js <priv-key> <webid> POST https://labs.eventnotifications.net/
 Use the headers from the previous command in a curl command:
 
 ```
-curl -X POST <headers> -H 'Content-type: application/ld+json' --data-binary mynotification.jsonld https://labs.eventnotifications.net/inbox/
+curl -X POST <headers> -H 'Content-type: application/ld+json' --data-binary example.jsonld https://labs.eventnotifications.net/inbox/
 ```
